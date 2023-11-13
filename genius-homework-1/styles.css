@@ -6,10 +6,21 @@
 /*Base*/
 body{
     color: #011C44;
+
 }
 
 ul{
     list-style-type: none;
+}
+
+/*Button*/
+button{
+    color: white;
+    background-color: var(--color-light);
+    border-radius: 32px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 /*Link*/
@@ -24,12 +35,30 @@ ul{
 /*Hero section*/
 .hero-title{
     color: var(--color-light);
+    font-family: 'Play', sans-serif;
+    font-size: 140px;
+    font-weight: bold;
+}
+
+.hero-text-description{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.hero-text-sign-up{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
 }
 
 .section-title{
     color: var(--color-dark);
+    font-family: 'Play', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
 }
 
-.section-title span{
+.section-title .accent{
     color: var(--color-light);
 }

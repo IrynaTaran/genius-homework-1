@@ -1,0 +1,35 @@
+:root{
+    --color-dark: #011C44;
+    --color-light: #2B7FFF;
+}
+
+/*Base*/
+body{
+    color: #011C44;
+}
+
+ul{
+    list-style-type: none;
+}
+
+/*Link*/
+.link{
+    color: var(--color-dark)
+}
+
+.link:hover{
+    color: var(--color-light);
+}
+
+/*Hero section*/
+.hero-title{
+    color: var(--color-light);
+}
+
+.section-title{
+    color: var(--color-dark);
+}
+
+.section-title span{
+    color: var(--color-light);
+}
